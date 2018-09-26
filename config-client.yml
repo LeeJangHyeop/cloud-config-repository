@@ -1,5 +1,17 @@
-spring:
-  application:
-    name: config-client
 server:
   port: 9001
+---
+spring:
+    profiles: local
+mason:
+  value: local
+---
+spring:
+    profiles: develop
+mason:
+  value: develop
+---
+spring:
+    profiles: production
+mason:
+  value: production
