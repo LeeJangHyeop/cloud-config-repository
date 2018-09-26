@@ -4,7 +4,7 @@ server:
 spring:
     profiles: local
 mason:
-  value: local
+  value: local-changed
 ---
 spring:
     profiles: develop
